@@ -3,6 +3,7 @@
 
 # Temporary files
 /tmp
+*.lck
 *.000
 *.bak
 *.bck
