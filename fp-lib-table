@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tricky_footprints")(type "KiCad")(uri "${KIPRJMOD}/tricky_footprints.pretty")(options "")(descr ""))
+)
