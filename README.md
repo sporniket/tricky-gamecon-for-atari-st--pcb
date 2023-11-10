@@ -43,14 +43,14 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 To get the latest available work, one must clone the git repository, build and install the package.
 
-	git clone https://github.com/sporniket/tricky-gamecon-for-atari-st.git
+	git clone https://github.com/sporniket/tricky-gamecon-for-atari-st--pcb.git
 
 Then, open the project with Kicad 7.
 
 ## 4. Known issues
-See the [project issues](https://github.com/sporniket/tricky-gamecon-for-atari-st/issues) page.
+See the [project issues](https://github.com/sporniket/tricky-gamecon-for-atari-st--pcb/issues) page.
 
 ## 5. Miscellanous
 
 ### Report issues
-Use the [project issues](https://github.com/sporniket/tricky-gamecon-for-atari-st/issues) page.
+Use the [project issues](https://github.com/sporniket/tricky-gamecon-for-atari-st--pcb/issues) page.
