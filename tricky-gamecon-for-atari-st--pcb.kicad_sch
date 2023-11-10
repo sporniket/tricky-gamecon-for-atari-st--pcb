@@ -5,8 +5,8 @@
   (paper "A4" portrait)
 
   (title_block
-    (title "Tricky GAMe CONtroller for the Atari ST family")
-    (date "2023-11-07")
+    (title "Tricky GAMe CONtroller for the Atari ST family -- PCB")
+    (date "2023-11-10")
     (rev "v1.0.0-RC1")
     (company "Sporniket")
     (comment 3 "https://github.com/sporniket/tricky-gamecon-for-atari-st")
@@ -696,9 +696,6 @@
   (junction (at 152.4 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 2c6a294b-a0d1-4dad-9d8f-a39e22acfb41)
   )
-  (junction (at 99.06 236.22) (diameter 0) (color 0 0 0 0)
-    (uuid 2d0d7946-6b44-49e1-8095-7af16ab8e3fd)
-  )
   (junction (at 68.58 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 3a12f31f-021c-48c1-84d8-9478dec03006)
   )
@@ -756,10 +753,6 @@
     (stroke (width 0) (type default))
     (uuid 10f57bee-5952-4378-a4f7-b2ee2d470e49)
   )
-  (wire (pts (xy 115.57 236.22) (xy 127 236.22))
-    (stroke (width 0) (type default))
-    (uuid 114e4801-7938-4596-bdb2-8536421e5e9e)
-  )
   (wire (pts (xy 130.81 55.88) (xy 148.59 55.88))
     (stroke (width 0) (type default))
     (uuid 1373ce2d-d059-4c4a-8bcb-3998ee92d61e)
@@ -771,14 +764,6 @@
   (wire (pts (xy 135.89 38.1) (xy 148.59 38.1))
     (stroke (width 0) (type default))
     (uuid 166c1463-6c8c-4233-a2f3-2f1e0806303b)
-  )
-  (wire (pts (xy 115.57 233.68) (xy 127 233.68))
-    (stroke (width 0) (type default))
-    (uuid 18200e26-db15-40c8-a274-fde1768fd80b)
-  )
-  (wire (pts (xy 99.06 233.68) (xy 99.06 236.22))
-    (stroke (width 0) (type default))
-    (uuid 1e05c8b3-65e5-4db1-a343-ca908f211f50)
   )
   (wire (pts (xy 83.82 241.3) (xy 86.36 241.3))
     (stroke (width 0) (type default))
@@ -860,10 +845,6 @@
     (stroke (width 0) (type default))
     (uuid 8151f6e0-c1f8-4af1-883f-fe6a60ce8cc7)
   )
-  (wire (pts (xy 99.06 236.22) (xy 110.49 236.22))
-    (stroke (width 0) (type default))
-    (uuid 888e7e16-f15d-41b1-9b13-7aaba7a1e776)
-  )
   (wire (pts (xy 63.5 101.6) (xy 63.5 114.3))
     (stroke (width 0) (type default))
     (uuid 89ae8b49-df91-492b-bc35-a4c2d37c3392)
@@ -940,6 +921,10 @@
     (stroke (width 0) (type default))
     (uuid d3bf60a8-ae0d-4ce1-a530-4710a717426e)
   )
+  (wire (pts (xy 83.82 236.22) (xy 92.71 236.22))
+    (stroke (width 0) (type default))
+    (uuid d67afcda-6cd4-474f-a9b9-9972b07b142c)
+  )
   (wire (pts (xy 25.4 243.84) (xy 36.83 243.84))
     (stroke (width 0) (type default))
     (uuid d800f0a3-25a3-42ec-be1d-7aca22af6079)
@@ -992,10 +977,6 @@
     (stroke (width 0) (type default))
     (uuid f152f487-acea-4bbb-bc9b-c7a77b2c77af)
   )
-  (wire (pts (xy 110.49 233.68) (xy 99.06 233.68))
-    (stroke (width 0) (type default))
-    (uuid f316db0d-6f55-4701-b2d5-f44eceb2e8a9)
-  )
   (wire (pts (xy 130.81 53.34) (xy 148.59 53.34))
     (stroke (width 0) (type default))
     (uuid f34f97a0-f1a0-439e-9910-b114b4b8aa1a)
@@ -1007,10 +988,6 @@
   (wire (pts (xy 135.89 40.64) (xy 148.59 40.64))
     (stroke (width 0) (type default))
     (uuid fbd9a5a7-2469-47fc-a525-12068c85b7e6)
-  )
-  (wire (pts (xy 83.82 236.22) (xy 99.06 236.22))
-    (stroke (width 0) (type default))
-    (uuid ff684257-16eb-4729-930d-cc624b01e98b)
   )
 
   (text "Right gamepad setup" (at 59.69 219.71 0)
@@ -1066,10 +1043,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4d374ad4-022d-4a68-96d5-23501fe39a89)
   )
-  (label "left" (at 127 233.68 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4dac38bf-6d9d-448f-a6d0-7f7bdb8cafa6)
-  )
   (label "left" (at 135.89 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 616af397-30f2-4f60-afae-ba6dc21ceec9)
@@ -1081,10 +1054,6 @@
   (label "special_1" (at 97.79 241.3 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7d622149-9aee-41a4-a776-b1b3717b5876)
-  )
-  (label "right" (at 127 236.22 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 82501585-f336-434c-bf82-732c15947cfd)
   )
   (label "fire{slash}lmb" (at 123.19 203.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1109,6 +1078,10 @@
   (label "up" (at 127 152.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b39ccdf6-2743-4358-9dcd-7e0afa4be24b)
+  )
+  (label "down" (at 92.71 236.22 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b611ed9a-e3fe-40e1-8071-9dfa50e74101)
   )
   (label "right" (at 135.89 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1151,7 +1124,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H8") (unit 1)
         )
@@ -1175,7 +1148,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H2") (unit 1)
         )
@@ -1201,7 +1174,7 @@
     (pin "1" (uuid da131df8-3379-4c31-8d5f-b5a5ac24c15a))
     (pin "2" (uuid 61a85b5f-6c92-4abc-aff2-609e18b92712))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW2") (unit 1)
         )
@@ -1225,7 +1198,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H4") (unit 1)
         )
@@ -1250,7 +1223,7 @@
     )
     (pin "1" (uuid 13c3f465-2a56-44d6-bb9f-9e7b0dabf334))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#PWR02") (unit 1)
         )
@@ -1276,7 +1249,7 @@
     (pin "1" (uuid 4a9fbfde-89b1-4379-b92d-f431f3281095))
     (pin "2" (uuid 36937c16-7dc1-4e7c-b7d1-7462e07d24fa))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW3") (unit 1)
         )
@@ -1302,7 +1275,7 @@
     (pin "1" (uuid fc995801-8c8f-439d-890b-699fa77b9436))
     (pin "2" (uuid 72655d69-5df8-4bdc-9b02-9b3f7eb67364))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW8") (unit 1)
         )
@@ -1328,7 +1301,7 @@
     (pin "1" (uuid e1be6b08-9985-4c77-9686-4c8225d3ae9d))
     (pin "2" (uuid 3eb364c1-6cd4-4a15-ba7d-f0a2a8f19452))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW6") (unit 1)
         )
@@ -1352,7 +1325,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H6") (unit 1)
         )
@@ -1376,7 +1349,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H3") (unit 1)
         )
@@ -1401,7 +1374,7 @@
     )
     (pin "1" (uuid ae79b7c8-6fda-4d88-acb1-a094ca05e0e0))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#FLG02") (unit 1)
         )
@@ -1433,7 +1406,7 @@
     (pin "1" (uuid ca10955c-c477-42a2-9a9e-fe309bd9cbb5))
     (pin "2" (uuid f8871ab1-78ad-4e79-8b22-4910d218a6ac))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "D1") (unit 1)
         )
@@ -1457,41 +1430,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Small_Filled") (at 113.03 236.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6c583b97-cf5a-4c95-adbe-796983cb79f9)
-    (property "Reference" "D4" (at 114.3 234.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1N4148" (at 111.76 234.95 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" (at 113.03 236.22 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 236.22 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 113.03 236.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 113.03 236.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6e614a24-930c-4881-a773-74712a63172d))
-    (pin "2" (uuid 8bd10000-30d0-4c68-b2af-9cf384926bae))
-    (instances
-      (project "tricky-gamecon-for-atari-st"
-        (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
-          (reference "D4") (unit 1)
         )
       )
     )
@@ -1515,7 +1456,7 @@
     (pin "1" (uuid 5794c130-f8cc-476d-96b2-10315c6a95cc))
     (pin "2" (uuid 9bbbfeb0-d3ea-4cc4-8651-9abf9861260a))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW9") (unit 1)
         )
@@ -1539,7 +1480,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H5") (unit 1)
         )
@@ -1565,7 +1506,7 @@
     (pin "1" (uuid 746c7801-0986-478c-a5a3-bef90b1bea99))
     (pin "2" (uuid 996773c8-7747-4648-b57a-d4a3ac80487d))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW5") (unit 1)
         )
@@ -1591,7 +1532,7 @@
     (pin "1" (uuid 47e7a7fe-09ce-4946-b75e-8c9a3781837b))
     (pin "2" (uuid ca442226-6de7-48d4-8f09-20edda4fd58a))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW4") (unit 1)
         )
@@ -1616,7 +1557,7 @@
     )
     (pin "1" (uuid 6dc985fe-13fd-4bd8-b384-fb701d6274cb))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#PWR04") (unit 1)
         )
@@ -1649,7 +1590,7 @@
     (pin "8" (uuid 477bce93-c040-48c5-9f7b-e852ac39dca8))
     (pin "9" (uuid 0428d2eb-c7ac-4d4f-9f22-e7094ebf5fa4))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "J1") (unit 1)
         )
@@ -1674,7 +1615,7 @@
     )
     (pin "1" (uuid 0a1dafa8-67d8-425b-991a-43f17e62e45f))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#PWR03") (unit 1)
         )
@@ -1699,7 +1640,7 @@
     )
     (pin "1" (uuid 690fbd44-df6b-4a87-8f39-3a9a28583feb))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#FLG01") (unit 1)
         )
@@ -1724,7 +1665,7 @@
     )
     (pin "1" (uuid 21d59fad-6b08-41dd-bf12-a4194230ffaf))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "#PWR01") (unit 1)
         )
@@ -1750,7 +1691,7 @@
     (pin "1" (uuid 63ce2a2a-c2ec-4dd6-ba5a-09af0532d907))
     (pin "2" (uuid 7f09e19a-a3a2-448c-98c3-d7e8bb949eab))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW7") (unit 1)
         )
@@ -1786,41 +1727,9 @@
     (pin "8" (uuid 1db08525-4bd9-4a67-bebe-a770a15c6c7d))
     (pin "9" (uuid b35a31f9-b1a7-4c7c-9b11-c0caad44ccdd))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "SW1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Small_Filled") (at 113.03 233.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d45fdb77-2d0f-42ef-bc73-4ae451fc8546)
-    (property "Reference" "D3" (at 114.3 232.41 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1N4148" (at 111.76 232.41 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" (at 113.03 233.68 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 233.68 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 113.03 233.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 113.03 233.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5fc8aea1-3b03-4cea-8218-65726cbffb97))
-    (pin "2" (uuid 107aefa6-3d57-40a0-a2c0-10bc143ac510))
-    (instances
-      (project "tricky-gamecon-for-atari-st"
-        (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
-          (reference "D3") (unit 1)
         )
       )
     )
@@ -1842,7 +1751,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "H1") (unit 1)
         )
@@ -1874,7 +1783,7 @@
     (pin "1" (uuid fb9974eb-c8fa-46cc-a2e9-ca938c94f49a))
     (pin "2" (uuid 6b24190a-cb99-4605-8a14-671df5c0b6bd))
     (instances
-      (project "tricky-gamecon-for-atari-st"
+      (project "tricky-gamecon-for-atari-st--pcb"
         (path "/c643f2e2-b832-4052-a8cd-8fe3a975f56e"
           (reference "D2") (unit 1)
         )
