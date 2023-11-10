@@ -12,7 +12,11 @@ Content
 
 ## 1. What is **Tricky GAMe CONtroller for the Atari ST family**, and when to use it ?
 
-**Tricky GAMe CONtroller for the Atari ST family** is a ...
+**Tricky GAMe CONtroller for the Atari ST family** is a game controller for the Atari ST with four action buttons that can be mapped to various configurations : the regular fire button, the up direction, and optionnally, one down or right-click (only on mouse port) button, and one up+down button.
+
+For instance, the doubled fire button with one up and one down button will help to use the weapons of Rick Dangerous.
+
+The up+down button allow to test the [Metal Slug (Mission 1) port for Atari STE](https://www.atari-forum.com/viewtopic.php?t=40706) made by masteries
 
 
 ### Licence
