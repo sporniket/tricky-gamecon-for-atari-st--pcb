@@ -8,7 +8,7 @@
   (title_block
     (title "Tricky GAMe CONtroller for the Atari ST family -- PCB")
     (date "2023-11-14")
-    (rev "v1.0.0-RC2")
+    (rev "v1.0.0-RC3")
     (company "Sporniket")
     (comment 3 "https://github.com/sporniket/tricky-gamecon-for-atari-st--pcb")
     (comment 4 "Original repository")
@@ -1704,7 +1704,7 @@
   (gr_text "WITHOUT ANY WARRANTY\nWithout even the implied warranty of\nSAFETY, MERCHANTABILITY or FITNESS\nFOR A \nPARTICULAR \nPURPOSE" (at 65.532 112.268) (layer "F.SilkS") (tstamp 22e8a722-cc47-4eba-ad96-3ef034ca7f4b)
     (effects (font (size 1 1) (thickness 0.15) italic) (justify left bottom))
   )
-  (gr_text "Tricky gamecon\nfor the Atari ST\nfamily\nv1.0.0-RC1" (at 100.584 104.648) (layer "F.SilkS") (tstamp c2bf203a-a974-4182-a5bf-1f4734d0309e)
+  (gr_text "Tricky gamecon\nfor the Atari ST\nfamily\nv1.0.0-RC3" (at 100.584 104.648) (layer "F.SilkS") (tstamp c2bf203a-a974-4182-a5bf-1f4734d0309e)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify bottom))
   )
   (gr_text "https://github.com/sporniket/tricky-gamecon-for-atari-st" (at 88.646 143.002) (layer "F.SilkS") (tstamp eff2c04e-2a8d-4b7b-beef-16553ad6dc2b)
